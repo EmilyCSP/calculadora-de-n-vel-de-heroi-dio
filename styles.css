@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; /* Define um plano de fundo inicial branco */
+  background-size: cover;
+  transition: background-image 0.5s ease-in-out; /* Adiciona uma transição suave para a mudança de imagem de fundo */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px; /* Aumenta a margem inferior do título */
+}
+
+label {
+  display: block;
+  text-align: center; /* Centraliza o texto dentro do label */
+  margin-bottom: 10px;
+}
+
+input {
+  display: block;
+  margin: 20px auto 0; /* Centraliza o input horizontalmente e adiciona margem superior */
+  text-align: center; /* Centraliza o texto dentro do input */
+}
+
+button {
+  display: block;
+  margin: 20px auto 0; /* Centraliza o botão horizontalmente e adiciona margem superior */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.mensagem {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #9521d3;
+  border: 1px solid #c65be1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(243, 240, 240);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.mostrando {
+  display: block;
+  opacity: 1;
+}
+
+.background-ferro {
+  background-image: url('./imagens/cassius.jpg');
+}
+
+.background-bronze {
+  background-image: url('./imagens/ikki-de-fenix.jpg');
+}
+
+.background-prata {
+  background-image: url('./imagens/orfeu\ de\ lira\ prata.jgp');
+}
